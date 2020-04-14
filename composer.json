@@ -1,6 +1,6 @@
 {
     "name": "dominicwatts/checkout",
-    "description": "",
+    "description": "Checkout add remove address button remove",
     "type": "magento2-module",
     "license": "proprietary",
     "authors": [
