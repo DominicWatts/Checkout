@@ -157,6 +157,8 @@ define([
                 return true;
             }
 
+            this.validatePaymentInformation();
+
             return false;
         },
 
@@ -216,6 +218,22 @@ define([
          * @return {Boolean}
          */
         validate: function () {
+            return true;
+        },
+
+        /**
+         * Focus to input error
+         */
+        validatePaymentInformation: function () {
+            function onErrorFocus(errorElement) {
+                if (typeof errorElement !== 'undefined') {
+                    $([document.documentElement, document.body]).animate({
+                        scrollTop: $(errorElement).offset().top - 50
+                    }, 1000);
+                }
+            }
+            var errorElement = $("input.mage-error")[0];
+            onErrorFocus(errorElement);
             return true;
         },
 

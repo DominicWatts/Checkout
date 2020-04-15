@@ -1,6 +1,6 @@
 {
     "name": "dominicwatts/checkout",
-    "description": "Checkout add remove address button remove",
+    "description": "Magento 2 Checkout Usability Update",
     "type": "magento2-module",
     "license": "proprietary",
     "authors": [
@@ -9,7 +9,7 @@
             "email": "dominic@xigen.co.uk"
         }
     ],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "minimum-stability": "dev",
     "require": {},
     "autoload": {

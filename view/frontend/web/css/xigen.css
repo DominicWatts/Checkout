@@ -1,6 +1,6 @@
-/*
-// here
-*/
+/**
+ * Xigen_Checkout
+ */
 .checkout-payment-method .checkout-billing-address .primary .action-update,
 .checkout-payment-method .checkout-billing-address .primary .action-cancel {
     display: none;
